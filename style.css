@@ -2,11 +2,25 @@
     --color-bgc: #122D42;
     --color-one: #3E6B89;
     --color-two: #3DD2CC;
-    --color-tree: #CBF9DA;
+    --color-text: #CBF9DA;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: var(--color-bgc);
+    color: var(--color-text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 66px;
 }
