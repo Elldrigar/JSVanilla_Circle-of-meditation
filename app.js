@@ -8,14 +8,14 @@ const holdTime = totalTime / 5;
 breathAnimation();
 
 function breathAnimation() {
-    text.innerText = 'Wdech !';
+    text.innerText = 'Wdech😫';
     container.className = 'container grow';
 
     setTimeout(() => {
-        text.innerText = 'Trzymaj !';
+        text.innerText = 'Trzymaj🤭';
 
         setTimeout(() => {
-            text.innerText = 'Wypuść !';
+            text.innerText = 'Wypuść😤';
             container.className = 'container shrink';
         }, holdTime);
     }, breathTime);
