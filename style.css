@@ -1,0 +1,12 @@
+:root {
+    --color-bgc: #122D42;
+    --color-one: #3E6B89;
+    --color-two: #3DD2CC;
+    --color-tree: #CBF9DA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
